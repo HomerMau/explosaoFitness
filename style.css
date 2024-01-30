@@ -5,11 +5,71 @@
 }
 
 
+:root {
 
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+
+  font-family: 'Noto Sans Display', sans-serif;
+
+}
 
 
 body {
   background-color: #000000;
 
   color: #fff;
+}
+
+.container, .top-navigation {
+  display: flex;
+}
+
+.container {
+
+  max-width: 39.3rem;
+
+  flex-direction: column;
+
+
+  margin: auto;
+
+}
+
+.top-navigation {
+  margin-top: 4rem;
+
+  justify-content: space-between;
+
+
+}
+
+.home {
+  margin-top: 2.4rem;
+
+  background: url('./assets/images/academy.png'), lightgray 50% / cover no-repeat;
+
+  text-align: center;
+  
+  font-size: 3.3rem;
+
+  border-radius: 5%;
+}
+
+button {
+    margin-top: 5rem;
+
+
+  padding: 16px 39px 17px 50px;
+  justify-content: flex-end;
+  align-items: center;
+
+  border-radius: 30px;
+  background: #DA9500;
+
+  }
+
+
+
+img {
+  
 }
