@@ -100,3 +100,21 @@ h2 {
   }
 }
 
+.gallery {
+  margin-top: 13rem;
+  display: flex;
+  justify-content: center;
+
+  > img {
+
+    height: 21rem;
+    width: 28rem;
+
+    border-radius: 10px;
+  }
+
+}
+
+img, .map iframe {
+  width: 10%;
+}
