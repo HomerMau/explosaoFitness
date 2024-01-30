@@ -4,15 +4,11 @@
   box-sizing: border-box;
 }
 
-
 :root {
-
   font-size: clamp(40%, 1% + 2vw, 62.5%);
 
-  font-family: 'Noto Sans Display', sans-serif;
-
+  font-family: "Noto Sans Display", sans-serif;
 }
-
 
 body {
   background-color: #000000;
@@ -20,56 +16,87 @@ body {
   color: #fff;
 }
 
-.container, .top-navigation {
+.container,
+.top-navigation {
   display: flex;
 }
 
 .container {
-
   max-width: 39.3rem;
 
   flex-direction: column;
 
-
   margin: auto;
-
 }
 
 .top-navigation {
   margin-top: 4rem;
 
   justify-content: space-between;
-
-
 }
 
 .home {
   margin-top: 2.4rem;
 
-  background: url('./assets/images/academy.png'), lightgray 50% / cover no-repeat;
+  background: url("./assets/images/academy.png"),
+    lightgray 50% / cover no-repeat;
 
   text-align: center;
-  
+
   font-size: 3.3rem;
 
   border-radius: 5%;
 }
 
 button {
-    margin-top: 5rem;
-
+  margin-top: 5rem;
 
   padding: 16px 39px 17px 50px;
   justify-content: flex-end;
   align-items: center;
 
-  border-radius: 30px;
-  background: #DA9500;
+  border-radius: 3.0rem;
+  background: #da9500;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h2 {
+   margin: 12.7rem 0 7rem 6rem;
+
+
+    font-size: 2.8rem;
+
+    text-align: start;
 
   }
 
+  h4 {
 
+    font-weight: 400;
+    font-size: 1.4rem;
 
-img {
-  
+  }
+
+.advantage {
+
+  display: flex;
+  align-items: center;
+  gap: 3.0rem;
+
+  > img {
+    height: 5.2rem;
+    width: 4.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  > .text h4 {
+
+    margin: 1.4rem 0 4rem;
+    width: 22.4rem;
+
+  }
 }
+
