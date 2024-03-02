@@ -277,6 +277,13 @@ border-bottom-left-radius: 50%;
 
   .train-with-us{
     margin: 0 auto;
+    .advantage{
+
+      h4{
+        
+        width: 37rem;
+      }
+    }
   }
 
 
